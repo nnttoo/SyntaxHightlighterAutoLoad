@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Hello SyntaxHighlighter</title> 
+	<link type="text/css" rel="stylesheet" href="styles/shCoreDefault.css"/> 
+</head>
+
+<body style="background: white; font-family: Helvetica">
+
+<h1>Hello SyntaxHighlighter</h1>
+<pre class="brush: js;">
+function helloSyntaxHighlighter()
+{
+	return "hi!";
+}
+</pre>
+
+
+<script type="text/javascript" src="scripts/shCore.js"></script>
+<script type="text/javascript" src="scripts/shAutoloader.js" ></script>
+<script type="text/javascript"> 
+var scriptDir = "scripts";
+SyntaxHighlighter.autoloader(
+	'applescript			'+scriptDir+'/shBrushAppleScript.js',
+	'actionscript3 as3		'+scriptDir+'/shBrushAS3.js',
+	'bash shell				'+scriptDir+'/shBrushBash.js',
+	'coldfusion cf			'+scriptDir+'/shBrushColdFusion.js',
+	'cpp c					'+scriptDir+'/shBrushCpp.js',
+	'c# c-sharp csharp		'+scriptDir+'/shBrushCSharp.js',
+	'css					'+scriptDir+'/shBrushCss.js',
+	'delphi pascal			'+scriptDir+'/shBrushDelphi.js',
+	'diff patch pas			'+scriptDir+'/shBrushDiff.js',
+	'erl erlang				'+scriptDir+'/shBrushErlang.js',
+	'groovy					'+scriptDir+'/shBrushGroovy.js',
+	'haxe hx				'+scriptDir+'/shBrushHaxe.js',
+	'java					'+scriptDir+'/shBrushJava.js',
+	'jfx javafx				'+scriptDir+'/shBrushJavaFX.js',
+	'js jscript javascript	'+scriptDir+'/shBrushJScript.js',
+	'perl pl				'+scriptDir+'/shBrushPerl.js',
+	'php					'+scriptDir+'/shBrushPhp.js',
+	'text plain				'+scriptDir+'/shBrushPlain.js',
+	'py python				'+scriptDir+'/shBrushPython.js',
+	'ruby rails ror rb		'+scriptDir+'/shBrushRuby.js',
+	'scala					'+scriptDir+'/shBrushScala.js',
+	'sql					'+scriptDir+'/shBrushSql.js',
+	'vb vbnet				'+scriptDir+'/shBrushVb.js',
+	'xml xhtml xslt html	'+scriptDir+'/shBrushXml.js'
+); 
+    SyntaxHighlighter.all();
+</script>
+</html>
