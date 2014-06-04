@@ -4,5 +4,10 @@ SyntaxHightlighterAutoLoader adalah javascript sederhana untuk menggunakan synta
 
 Penjelasannya dapat dilihat di halaman ini : http://www.ttsberita.com/2014/06/membuat-auto-loader-syntaxhightlighter.html
 
-syntaxhighlighter : https://github.com/alexgorbatchev/syntaxhighlighter
+Gunakan kode berikut ini untuk menggunakannya
+
+<script type="text/javascript" src="myautoloder.js"></script>  
+
+
+syntaxhighlighter berasal dari   : https://github.com/alexgorbatchev/syntaxhighlighter
 
