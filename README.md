@@ -6,7 +6,7 @@ Penjelasannya dapat dilihat di halaman ini : http://www.ttsberita.com/2014/06/me
 
 Gunakan kode berikut ini untuk menggunakannya
 
-<script type="text/javascript" src="myautoloder.js"></script>  
+&lt;script type="text/javascript" src="myautoloder.js"&gt;&lt;/script&gt;
 
 
 syntaxhighlighter berasal dari   : https://github.com/alexgorbatchev/syntaxhighlighter
